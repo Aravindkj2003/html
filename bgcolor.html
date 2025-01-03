@@ -1,0 +1,33 @@
+<html>
+<title>Java</title>
+
+<body>
+    <center>
+        <div>
+            <h1 style="background-color:aqua;">JavaScript</h1>
+        </div>
+        <div>
+            <input type="button" onclick="display()"  style="padding: 20px;background-color: #294f08;color: #ffffff;" value="JavaScript"></input type="button">&nbsp;&nbsp;&nbsp;
+            <input type="button" onclick="display1()" style="padding: 20px;background-color: blueviolet;" value="OM"></input type="button">
+        </div>
+    </center>
+    <div id="JavaScript"></div>
+    <div id="OM"></div>
+</body>
+<script>
+    function display()
+    {
+
+        document.getElementById("JavaScript").innerHTML="hellooooooooooooo";
+        document.getElementById("OM").style.display="none";
+        document.getElementById("JavaScript").style.display="block";
+    }
+    function display1()
+    {
+
+        document.getElementById("OM").innerHTML="Hiiii";
+        document.getElementById("JavaScript").style.display="none";
+        document.getElementById("OM").style.display="block";
+    }
+</script>
+</html>
